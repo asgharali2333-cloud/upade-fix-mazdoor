@@ -26,7 +26,7 @@ jobs:
 
       - name: Extract Android project
         run: |
-          unzip -q "EarningDashboard-Browser-Upgrade-v1.zip" -d extracted
+          unzip -q "EarningDashboard-Browser-Upgrade-v1-Fix5.zip" -d extracted
 
       - name: Build Debug APK
         working-directory: extracted/ed
